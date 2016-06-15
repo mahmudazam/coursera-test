@@ -1,0 +1,76 @@
+/* Base Styles(Phone): */
+* {
+	box-sizing: border-box;
+	font-family: arial;
+	text-align: left;
+}
+
+h1 {
+	font-size: 175%;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.gridCell {
+	padding: 10px;
+}
+
+section {
+	position: relative;
+	background: gray;
+	border: 1px solid black;
+}
+
+.title {
+	float: right;
+	width: 150px;
+	font-size: 125%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.bodyText {
+	clear: both;
+	position: relative;
+	margin: 10px;
+}
+
+#title1 {
+	background: pink;
+}
+
+#title2 {
+	background: red;
+}
+
+#title3 {
+	background: yellow;
+}
+
+/* Desktop Styles: */
+@media (min-width: 992px) {
+	.gridCell {
+		float: left;
+		width: 33.33%
+	}
+}
+
+/* Tablet Styles: */
+@media (min-width: 768px) and (max-width: 991px) {
+	.gridCell {
+		float: left;
+	}
+	#gridCell1 {
+		width: 50%;
+	}
+	#gridCell2 {
+		width: 50%;
+	}
+	#gridCell3 {
+		width: 100%;
+	}
+}
+
