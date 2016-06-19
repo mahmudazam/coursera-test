@@ -3,6 +3,7 @@
 	box-sizing: border-box;
 	font-family: arial;
 	text-align: left;
+	word-wrap: break-word;
 }
 
 h1 {
