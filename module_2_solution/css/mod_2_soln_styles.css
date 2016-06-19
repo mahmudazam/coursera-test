@@ -1,7 +1,7 @@
 /* Base Styles(Phone): */
 * {
 	box-sizing: border-box;
-	font-family: arial;
+	font-family: Helvetica, arial, sans-serif;
 	text-align: left;
 	word-wrap: break-word;
 }
@@ -24,7 +24,9 @@ section {
 }
 
 .title {
-	float: right;
+	position: absolute;
+	top: -1px;
+	right: -1px;
 	width: 150px;
 	font-size: 125%;
 	text-align: center;
@@ -34,9 +36,11 @@ section {
 }
 
 .bodyText {
-	clear: both;
 	position: relative;
-	margin: 10px;
+	margin-top: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
 }
 
 #title1 {
