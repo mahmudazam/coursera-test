@@ -71,13 +71,11 @@ h2 {
 	margin-bottom: 30px;
 }
 
-.container {
-	padding-left: 30px;
-	padding-right: 30px;
+.col-md-4 > div, .col-sm-6 > div {
+	padding: 10px;
 }
 
-.container > .row > div {
-	margin-bottom: 15px;
+.container > .row > section {
 	padding: 15px;
 }
 
